@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LAKSHYA ART</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fff8e1;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc80;
+      text-align: center;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #ff5722;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #ffe0b2;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LAKSHYA ART</h1>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <!-- Add your artwork here -->
+      <img src="your-art1.jpg" alt="Art 1">
+      <img src="your-art2.jpg" alt="Art 2">
+      <img src="your-art3.jpg" alt="Art 3">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lakshya Art. All rights reserved.</p>
+  </footer>
+</body>
+</html>
